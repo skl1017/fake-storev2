@@ -3,6 +3,7 @@ import { useQuery } from 'react-query';
 import Product from './Product';
 import { useParams } from 'react-router-dom';
 
+
 export default function ProductList({endpoint}) {
 
     const { categoryId } = useParams();
